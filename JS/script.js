@@ -1,3 +1,6 @@
+var age = 0;
+var power = 0;
+
 function calculate(){
 /*this are variables from the input fields */
 var name = document.getElementById("yourName").value;
@@ -9,12 +12,16 @@ var text =", your insurance costs ";
 var text2 ="Euro"
 
 /* this if choose what country you entered and calculate your insurance */
+/*Math.floor = number is now an integer */
 if (insurance == 100){
 	var result = power * 100 / age +50;
+	var result = Math.floor(result);
 }else if(insurance == 120){
 	var result = power * 120 / age +100;
+	var result = Math.floor(result);
 }else if(insurance == 150){
 	var result = power * 150 / (age+3) +50;
+	var result = Math.floor(result);
 }else if(insurance == 0){
 	var result = "Please fill in all forms"
 	var name = "";
