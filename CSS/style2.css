@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* margin and padding 0 in body because i don´t want a gap between the edge and body*/
+body {
+  margin: 0px;
+  padding: 0px; }
+
+/* make the background color grey and let the images be left and right */
+.head {
+  background-color: #FFF3F3;
+  height: 7em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3em 0 3em; }
+
+/*Navbar design */
+nav.navbar {
+  background-color: #8E1616; }
+
+nav.navbar > ul.item {
+  padding: 0px;
+  margin: 0px;
+  height: 2.5em;
+  display: flex;
+  align-items: center; }
+
+nav.navbar > ul.item > li.list-item {
+  list-style: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 2.5em; }
+
+#team {
+  background-color: #4E0000; }
+
+nav.navbar > ul.item > li.list-item a {
+  font-size: 2em;
+  color: white;
+  text-decoration: none; }
+
+/*footer*/
+nav.navbar2 {
+  background-color: #171717; }
+
+nav.navbar2 > ul.item {
+  padding: 0px;
+  margin: 0px;
+  height: 2.5em;
+  display: flex;
+  align-items: center; }
+
+nav.navbar2 > ul.item > li.list-item {
+  list-style: none;
+  padding-left: 2em; }
+
+nav.navbar2 > ul.item > li.list-item a {
+  font-size: 2em;
+  color: white;
+  text-decoration: none; }
+
+nav.navbar > ul.item > li.list-item a:hover {
+  font-size: 2.2em;
+  color: white;
+  text-decoration: underline; }
+
+footer {
+  height: 20em;
+  background-color: #171717; }
+
+#copyright {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
+
+#copyright p {
+  color: white;
+  padding-top: 3.5em;
+  margin-bottom: 0px; }
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 8em;
+  padding-right: 5em; }
+
+/*Background image*/
+#firstSection {
+  height: 56.2em;
+  width: 100%;
+  background-image: url("../img/traffic-332857_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*text above the background picture*/
+#text {
+  margin: 0px;
+  color: white;
+  font-size: 4em;
+  padding-top: 1.0em;
+  padding-left: 1em; }
+
+/*flexbox around the whitebox to center the whitebox */
+#flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px; }
+
+/*whitebox -- transperent and - margin to move it into the first section */
+#whitebox {
+  width: 80%;
+  height: 50em;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-top: -45em;
+  border: 3px solid #767676;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 5em; }
+
+/*second Section with a little bit -margin to close the gap */
+#secondSection {
+  background-color: #CECECE;
+  height: 14em;
+  margin-top: -10.5em;
+  display: flex;
+  justify-content: center; }
+
+#secondSection p {
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 1.5em; }
+
+.haken {
+  color: green; }
+
+/* First box */
+.box1 {
+  border-top: 3px solid black;
+  border-left: 3px solid #EAEAEA;
+  border-right: 3px solid #EAEAEA;
+  border-bottom: 3px solid #EAEAEA;
+  height: 35em;
+  width: 27em;
+  padding-left: 2em;
+  margin-bottom: 7em;
+  padding-top: 2em; }
+
+.boxText1 {
+  font-size: 1.5em;
+  margin-bottom: 0px;
+  font-weight: bold; }
+
+.boxText2 {
+  margin-top: 0px; }
+
+/*second box */
+.box2 {
+  border-top: 3px solid black;
+  border-left: 3px solid #EAEAEA;
+  border-right: 3px solid #EAEAEA;
+  border-bottom: 3px solid #EAEAEA;
+  height: 35em;
+  width: 27em;
+  padding-left: 2em;
+  margin-bottom: 7em;
+  padding-top: 2em; }
+
+#a1 {
+  border-radius: 22em; }
+
+#a2 {
+  border-radius: 22em; }
+
+/*responsive !!!!!! ------------------------------------------------------ */
+@media only screen and (max-width: 500px) {
+  /* make the head invisible */
+  .head {
+    display: none; }
+
+  /* change the navbar - make it bigger */
+  nav.navbar {
+    background-color: #8E1616;
+    height: 4em; }
+
+  nav.navbar > ul.item {
+    padding: 0px;
+    margin: 0px;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5em; }
+
+  nav.navbar > ul.item > li.list-item {
+    list-style: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 2.5em; }
+
+  nav.navbar > ul.item > li.list-item a {
+    font-size: 2.5em;
+    color: white;
+    text-decoration: none; }
+
+  /* more gap between nav and whitebox */
+  #whitebox {
+    width: 95%;
+    height: 65em;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: -45em;
+    border: 3px solid #767676;
+    display: inline-block; }
+
+  /*text above the background picture is now smaller*/
+  #text {
+    margin: 0px;
+    color: white;
+    font-size: 2.8em;
+    padding-top: 1.0em;
+    padding-left: 1em; }
+
+  /*second section in the whitebox */
+  #secondSection {
+    background-color: #CECECE;
+    height: 45em;
+    margin-top: -25.5em;
+    display: flex;
+    justify-content: center; } }
+#secondSection p {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 1.5em; }
+
+#thirdSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 40em;
+  margin-top: 5em; }
+
+.box1 {
+  height: 35em;
+  width: 16.8em; }
+
+.box2 {
+  height: 35em;
+  width: 16.8em; }
+
+footer {
+  height: 15em; }
+
+#copyright p {
+  color: white;
+  padding-top: 0px;
+  margin-bottom: 0px; }
+
+/*# sourceMappingURL=style2.css.map */
