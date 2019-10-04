@@ -1,125 +1,125 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>CodeReview2</title>
-	<link rel="stylesheet" href="./CSS/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>CodeReview2</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
+
 <body>
-	<!-- First section with 2 pictures color grey -->
-	<header class="head">
-		<img id="insurance" src="./img/logo.png">
-		<img id="logo" src="./img/banner.png">
-	</header>
-	<!-- Navigaten bar -->
-	<nav class="navbar">
-		<ul class="item">
-			<li class="list-item" id="home"><a href=".\index.html">Home</a></li>
-			<li class="list-item" id="team"><a href=".\team.html">Team</a></li>
-		</ul>
-	</nav>
-	<!-- first section with background image -->
-	<div id="firstSection">
-		<p id="text">Car insurance</p>
-	</div>
-	<!-- flexbox - it helps to center the whitebox -->
-	<div id="flexbox">
-		<!-- White box and everything in it-->
-		<div id="whitebox">
-			<h1>Great coverage begins <br> with a custom quote</h1>
-			<!-- text over the input field -->
-			<div class="grid">
-			<div class="inputField">
-				<p id="yn">Your Name:</p>
-				<p id="a">Age:</p>
-			</div>
-			<!-- input field for age and name -->
-			<div class="inputField">
-				<input type="text" id="yourName">
-				<input type="number"value=""type="text" id="yourAge">
-			</div>
-			</div>
-			<!-- second row -->
-			<div class="inputField2">
-				<p id="yn2">Conutry</p>
-				<p id="a2">Horsepower of your car</p>
-			</div>
-			<!-- input field for age and name -->
-			<div class="inputField2">
-				<select id="country" name="country">
-					<option value ="0"> Please enter your country</option>
-					<option value="100" id="1">Austria</option>
-					<option value="120" id="2">Hungary</option>
-					<option value="150" id="3">Greece</option>
-				</select>
-				<input type="number"type="text" id="yourHorsePower">
-			</div>
-			<!-- Button -->
-			<div class="buttonPosition">
-				<button id="calculate" type="button" onClick="calculate()">Calculate</button>
-			</div>
-			<!-- Printed calculation goes here -->
-			<div class="buttonPosition">
-				<p id="printCalculation">Printed calculation goes here</p>
-			</div>
-		</div>
-	</div>
-	<!--grey section after the main part-->
-	<div id="secondSection">
-		<p>Un-complicating car coverage <br> Understanding your coverage options shouldn´t be so hard. <br> We´ll guide you through available coverage types, <br> starting with who and what is covered.</p>
-
-	</div>
-	<!-- Here are the add protection etc. things-->
-	<div id="thirdSection">
-		<!-- first box -->
-		<div class="box1">
-			<p class="boxText1">What comes standard</p>
-			<p class="boxText2">the coverage you need</p>
-			<div class="propertys">
-				<p><span class="haken">✔</span>Bodily Injury Liabillity</p>
-				<p><span class="haken">✔</span>Property Damage</p>
-				<p><span class="haken">✔</span>Medical Payments</p>
-				<br>
-				<p class="boxText1">Benefits</p>
-				<p class="boxText2">12-month rate guarantee | 24/7 Customer <br> Service | Lifetime Repair Guarantee</p>
-			</div>
-		</div>
-		<!-- second box -->
-		<div class="box2">
-			<p class="boxText1">Add-on Protection & coverage</p>
-			<p class="boxText2">For more peace of mind</p>
-			<div class="propertys">
-				<p><span class="haken">✔</span>Better Car Replacement</p>
-				<p><span class="haken">✔</span>Towing & Labor</p>
-				<p><span class="haken">✔</span>Rental Car Coverage</p>
-				<br>
-				<p class="boxText1">Earned Benefits</p>
-				<p class="boxText2">Accident Forgiveness | New Car <br> Replacement™</p>
-			</div>
-		</div>
-	</div>
-	<!-- footer, nothing special you can leave -->
-	<footer>
-		<!-- navigation bar -->
-		<nav class="navbar2">
-			<ul class="item">
-				<li class="list-item"><a href=".\index.html">Home</a></li>
-				<li class="list-item"><a href=".\team.html">Team</a></li>
-			</ul>
-		</nav>
-		<!-- banner on the right side -->
-		<div class="banner">
-			<img src="./img/logo-inv.png">
-		</div>
-		<!-- just the copyright text -->
-		<div id="copyright">
-			<p>Mattias Riedl - CodeFactory 2019</p>
-		</div>
-	</footer>
-
-
-<script src="./JS/script.js"></script>
+    <!-- First section with 2 pictures color grey -->
+    <header class="head">
+        <img id="insurance" src="./img/logo.png">
+        <img id="logo" src="./img/banner.png">
+    </header>
+    <!-- Navigaten bar -->
+    <nav class="navbar">
+        <ul class="item">
+            <li class="list-item" id="home"><a href=".\index.html">Home</a></li>
+            <li class="list-item" id="team"><a href=".\team.html">Team</a></li>
+        </ul>
+    </nav>
+    <!-- first section with background image -->
+    <div id="firstSection">
+        <p id="text">Car insurance</p>
+    </div>
+    <!-- flexbox - it helps to center the whitebox -->
+    <div id="flexbox">
+        <!-- White box and everything in it-->
+        <div id="whitebox">
+            <h1>Great coverage begins <br> with a custom quote</h1>
+            <!-- text over the input field -->
+            <div class="grid">
+                <div class="inputField">
+                    <p id="yn">Your Name:</p>
+                    <p id="a">Age:</p>
+                </div>
+                <!-- input field for age and name -->
+                <div class="inputField">
+                    <input type="text" id="yourName">
+                    <input type="number" value="" type="text" id="yourAge">
+                </div>
+            </div>
+            <!-- second row -->
+            <div class="inputField2">
+                <p id="yn2">Conutry</p>
+                <p id="a2">Horsepower of your car</p>
+            </div>
+            <!-- input field for age and name -->
+            <div class="inputField2">
+                <select id="country" name="country">
+                    <option value="0"> Please enter your country</option>
+                    <option value="100" id="1">Austria</option>
+                    <option value="120" id="2">Hungary</option>
+                    <option value="150" id="3">Greece</option>
+                </select>
+                <input type="number" type="text" id="yourHorsePower">
+            </div>
+            <!-- Button -->
+            <div class="buttonPosition">
+                <button id="calculate" type="button" onClick="calculate()">Calculate</button>
+            </div>
+            <!-- Printed calculation goes here -->
+            <div class="buttonPosition">
+                <p id="printCalculation">Printed calculation goes here</p>
+            </div>
+        </div>
+    </div>
+    <!--grey section after the main part-->
+    <div id="secondSection">
+        <p>Un-complicating car coverage <br> Understanding your coverage options shouldn´t be so hard. <br> We´ll guide you through available coverage types, <br> starting with who and what is covered.</p>
+    </div>
+    <!-- Here are the add protection etc. things-->
+    <div id="thirdSection">
+        <!-- first box -->
+        <div class="box1">
+            <p class="boxText1">What comes standard</p>
+            <p class="boxText2">the coverage you need</p>
+            <div class="propertys">
+                <p><span class="haken">✔</span>Bodily Injury Liabillity</p>
+                <p><span class="haken">✔</span>Property Damage</p>
+                <p><span class="haken">✔</span>Medical Payments</p>
+                <br>
+                <p class="boxText1">Benefits</p>
+                <p class="boxText2">12-month rate guarantee | 24/7 Customer <br> Service | Lifetime Repair Guarantee</p>
+            </div>
+        </div>
+        <!-- second box -->
+        <div class="box2">
+            <p class="boxText1">Add-on Protection & coverage</p>
+            <p class="boxText2">For more peace of mind</p>
+            <div class="propertys">
+                <p><span class="haken">✔</span>Better Car Replacement</p>
+                <p><span class="haken">✔</span>Towing & Labor</p>
+                <p><span class="haken">✔</span>Rental Car Coverage</p>
+                <br>
+                <p class="boxText1">Earned Benefits</p>
+                <p class="boxText2">Accident Forgiveness | New Car <br> Replacement™</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer, nothing special you can leave -->
+    <footer>
+        <!-- navigation bar -->
+        <nav class="navbar2">
+            <ul class="item">
+                <li class="list-item"><a href=".\index.html">Home</a></li>
+                <li class="list-item"><a href=".\team.html">Team</a></li>
+            </ul>
+        </nav>
+        <!-- banner on the right side -->
+        <div class="banner">
+            <img src="./img/logo-inv.png">
+        </div>
+        <!-- just the copyright text -->
+        <div id="copyright">
+            <p>Mattias Riedl - CodeFactory 2019</p>
+        </div>
+    </footer>
+    <script src="./JS/script.js"></script>
 </body>
+
 </html>
